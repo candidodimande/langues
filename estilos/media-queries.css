@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+    
+    .logo img {
+        width: 200px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: var(--verde-color);
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    menu {
+        background: none;
+        display: block;
+    }
+    .menu-list{
+    visibility: visible;
+    display: flex;
+    } 
+    .menu-list li a {
+        display: inline-block;
+        position: relative;
+        top: -40px;
+    }
+
+    .menu-list li {
+        margin-left: 35px;
+        letter-spacing: 3px;
+        padding: 0;
+    }
+
+   
+    .slogan {
+        font-size: 2em;
+    }
+
+    .slogan .slogan02 {
+        font-size: 2.5em;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+}
